@@ -11,13 +11,18 @@
     justify-content: space-between;
 }
 
+#iitrlogodiv{
+    width: 80%;
+    height: 90px;
+}
+
 #toprightdiv{
     display: flex;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
+    padding-top: 10px;
     font-weight: 400;
-    height: 60%;
-    width: 25%;
+    width: 25%; 
 }
 
 #toprightdiv_flexu{
@@ -26,30 +31,37 @@
     justify-content: space-between;
 }
 
+.abc{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
 #toprightdiv_flexl{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 10%;
 }
 
 #toprightdiv_flexu_div2{
     display: flex;
-    width: 17%;
-    justify-content: space-between;
+    width: 80px;
+    justify-content: space-around;
+    width: 20%;
+    padding-bottom: 8px;
+
 }
 
 #toprightdiv_flexu_div3{
     display: flex;
-    /* width: 5%; */
     font-family: 'Lato', sans-serif;
+    justify-content: center;
     font-weight: 400;
-    justify-content: space-between;
+    width: 33%;
 }
 
 #iitrlogo{
-    height: 90%;
-    width: 60%;
+    height: 75px;
+    width: 620px;
 }
 
 #headerdiv3{
@@ -65,6 +77,7 @@
     justify-content: space-between;
     padding: 2% 10% 2% 10%;
     height: 15em;
+    width: 100%;
     background-color: #5183B8;
     color: white;
 }
@@ -72,7 +85,7 @@
 #divafterheader_flex1{
     display: flex;
     justify-content: space-between;
-    width: 10%;
+    width: 190px;
     margin-bottom: 5%;
 }
 
@@ -86,7 +99,8 @@
 
 #footer{
     display: flex;
-    margin: 1% 10% 1% 10%;
+    margin: 1% 0% 1% 0%;
+    padding: 0% 10% 0% 10%;
     flex-flow: row wrap;
     justify-content: space-between;
 }
@@ -95,19 +109,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: yellow; */
+    /* width: 800px; */
 }
 
 #footerdiv2{
     display: flex;
+    width: 800px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    /* background-color: green; */
 }
 
 .footerdiv2div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px 10em 0px 10em;
+    /* margin: 0px 10em 0px 10em; */
 }
 
 #footerdiv1div6{
@@ -121,6 +141,8 @@
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
+    margin-bottom: 50px;
+    /* background-color: #5183B8; */
 }
 
 
@@ -141,7 +163,7 @@
     display: flex;
     flex-flow: row wrap;
     padding: 1% 0% 1% 0%;
-    height: 35em;
+    height: 33%;
     justify-content: space-between;
 }
 
@@ -150,7 +172,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33%;
+    width: 800px;
     height: 30em;
     justify-content: space-between;
     /* background-color: yellow; */
@@ -211,6 +233,6 @@
     display: flex;
     flex-flow: row wrap;
     padding: 1% 0% 1% 0%;
-    height: 70em;
+    height: 66%;
     justify-content: space-between;
 }
