@@ -169,6 +169,7 @@
     display: flex;
     flex-flow: row wrap;
     padding: 1% 0% 1% 0%;
+    margin: 5% 0% 10% 0%;
     height: 33%;
     width: 100%;
     justify-content: space-between;
@@ -242,6 +243,7 @@
     display: flex;
     flex-flow: row wrap;
     padding: 1% 0% 1% 0%;
+    margin: 5% 0% 10% 0%;
     height: 66%;
     justify-content: space-between;
 }
@@ -255,4 +257,50 @@
 .horizontalalign{ 
     display: flex;
     align-items: center;
+    /* vertical-align: middle; */
+}
+
+#Abutton1{
+    background-color:white ; 
+    border: 1px solid #1A76BB ; 
+    color: black; 
+    font-weight: 400; 
+    font-size: 16px; 
+    border-radius: 2px; 
+    padding: 5px 8px;
+}
+
+#Abutton2{
+    background-color:#1A76BB ; 
+    border: 1px solid #1A76BB ; 
+    color: white; 
+    font-weight: 400; 
+    font-size: 16px; 
+    border-radius: 2px; 
+    padding: 5px 8px
+}
+
+.sizeA{
+    display: flex; 
+    align-items: flex-end;
+}
+
+#A-{
+    font-size: 14px;
+}
+
+#A{
+    font-size: 18px;
+}
+
+#Aplus{
+    font-size: 20px;
+}
+
+.font-18-400-Lato{
+    font-size: 18px; font-weight: 400; font-family:Lato
+}
+
+.font-18-300-Lato{
+    font-size: 18px; font-weight:300; font-family: Lato
 }
