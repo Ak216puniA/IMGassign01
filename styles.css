@@ -304,3 +304,24 @@
 .font-18-300-Lato{
     font-size: 18px; font-weight:300; font-family: Lato
 }
+
+.photofeatures{
+    border-radius: 50%; 
+    height: 23px; 
+    width: 23px;
+}
+
+.yellowline{
+    border: 2px solid #FFD53D; 
+    width: 10em;
+}
+
+#greybox{
+    height: 190px; 
+    width: 300px; 
+    background-color: #C4C4C4;
+}
+
+.whiteline{
+    border: 0.5em solid white;
+}
