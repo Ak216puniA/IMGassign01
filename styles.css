@@ -82,7 +82,7 @@
     justify-content: space-between;
     padding: 2% 10% 2% 10%;
     height: 15em;
-    width: 100%;
+    /* width: 80%; */
     background-color: #5183B8;
     color: white;
 }
@@ -90,7 +90,7 @@
 #divafterheader_flex1{
     display: flex;
     justify-content: space-between;
-    width: 190px;
+    width: 150px;
     margin-bottom: 5%;
 }
 
@@ -170,7 +170,9 @@
     flex-flow: row wrap;
     padding: 1% 0% 1% 0%;
     height: 33%;
+    width: 100%;
     justify-content: space-between;
+    /* background-color: yellow; */
 }
 
 .divindesignersdiv{
@@ -248,4 +250,9 @@
     display: flex;
     justify-content: center; 
     width: 33%;
+}
+
+.horizontalalign{ 
+    display: flex;
+    align-items: center;
 }

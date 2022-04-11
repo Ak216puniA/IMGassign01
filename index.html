@@ -25,6 +25,9 @@
         #toprightdiv{
           display: none;
         }
+        #divafterheader{
+          width: 80%;
+        }
         #footer{
           display: flex;
           flex-direction: column;
@@ -37,8 +40,17 @@
           display: flex;
           flex-direction: column;
         }
+        #developersdiv{
+          display: flex;
+          flex-direction: column;
+        }
         .divindesignersdiv{
           width: 100%;
+          /* background-color: aqua; */
+        }
+        .divbehindphoto{
+          width: 100%;
+          /* background-color: aquamarine; */
         }
         .footerouterdivs{
           width: 100%;
@@ -46,6 +58,10 @@
         #footerdiv2{
           width: 100%;
         }
+        #iitrlogo{
+          height: 70px;
+          width: 300px;
+        } 
 
         /* #footerdiv1{
           display: flex;
@@ -151,11 +167,11 @@
     </div>
 
     <div id="divafterheader">
-      <div id="divafterheader_flex1">
+      <div class="horizontalalign" id="divafterheader_flex1">
         <div style="font-size: 18px; font-weight: 400; font-family:Lato">
           HOME
         </div>
-        <div><i class="fas fa-angle-right"></i></div>
+        <div style="padding-top: 1px;"><i class="fas fa-angle-right"></i></div>
         <div style="font-size: 18px; font-weight:300; font-family: Lato">
           TEAM
         </div>
@@ -466,16 +482,20 @@
           <div class="footerdiv12divdiv2">
             Contact us -
           </div>
-          <div class="footerdiv12divdiv2">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="#0067B3"/>
-              </svg>            
+          <div class="footerdiv12divdiv2 horizontalalign">
+            <div style="margin: 0px 2px 0px 0px;">
+              <svg width="17" height="17" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="#0067B3"/>
+                </svg>
+            </div>            
             123457997, 4725852981
           </div>
-          <div class="footerdiv12divdiv2">
-            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="#0067B3"/>
-              </svg>
+          <div class="footerdiv12divdiv2 horizontalalign">
+            <div style="margin: 0px 2px 0px 0px;">
+              <svg width="20" height="15" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="#0067B3"/>
+                </svg>
+            </div>
             iitrconnect@iitr.ac.in
           </div>
           <div id="footerdiv1div6">
@@ -546,20 +566,28 @@
         <div id="footerdiv3">
           <div style="height: 190px; width: 300px; background-color: #C4C4C4;"></div>
           <div>
-            <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19.35 6.04C18.67 2.59 15.64 0 12 0C9.11 0 6.6 1.64 5.35 4.04C2.34 4.36 0 6.91 0 10C0 13.31 2.69 16 6 16H19C21.76 16 24 13.76 24 11C24 8.36 21.95 6.22 19.35 6.04ZM17 9L12 14L7 9H10V5H14V9H17Z" fill="black"/>
-            </svg>
-            Department Brochure 
+            <div class="horizontalalign">
+              <div style="margin: 0px 2px 0px 0px;">
+                <svg width="23" height="15" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.35 6.04C18.67 2.59 15.64 0 12 0C9.11 0 6.6 1.64 5.35 4.04C2.34 4.36 0 6.91 0 10C0 13.31 2.69 16 6 16H19C21.76 16 24 13.76 24 11C24 8.36 21.95 6.22 19.35 6.04ZM17 9L12 14L7 9H10V5H14V9H17Z" fill="black"/>
+                </svg>
+              </div>
+              Department Brochure
+            </div> 
             <!-- <hr style="border: 0.1em solid white"> -->
             <br>
             Photo Credits: Photography Club, IITR
           </div>
           <div>
-            Made with
-            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="#B61818"/>
-            </svg>
-            by :
+            <div class="horizontalalign">
+              Made with
+              <div style="margin: 0px 2px 0px 2px;">
+                <svg width="16" height="15" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="#B61818"/>
+                </svg>
+              </div>
+              by :
+            </div>
             <!-- <hr style="border: 0.1em solid white"> -->
             <br>
             Information Management Group, IITR  
